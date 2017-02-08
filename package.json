@@ -1,6 +1,6 @@
 {
   "name": "asci-faces",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "asci faces",
   "main": "index.js",
   "scripts": {

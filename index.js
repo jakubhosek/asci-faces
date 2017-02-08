@@ -6,7 +6,12 @@ function getRandomFace() {
         '((≡^⚲͜^≡))'
     ];
 
-    return faces[0];
+    var index = getRandom(0, faces.length);
+    return faces[index];
+}
+
+function getRandom(min, max) {
+    return Math.floor(Math.random() * max) + min;
 }
 
 exports.getRandomFace = getRandomFace;

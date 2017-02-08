@@ -3,7 +3,8 @@ function getRandomFace() {
         'O-O',
         'D?D',
         '<ˇ_ˇ>',
-        '((≡^⚲͜^≡))'
+        '((≡^⚲͜^≡))',
+        'x_X'
     ];
 
     var index = getRandom(0, faces.length);
